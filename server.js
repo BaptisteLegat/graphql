@@ -1,9 +1,7 @@
-// server.js
 const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const schema = require('./types');
 const root = require('./resolvers');
-const db = require('./db');
 
 const app = express();
 
